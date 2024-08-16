@@ -1,0 +1,57 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000; /* Black background */
+    font-family: Arial, sans-serif;
+}
+
+/* Start Screen Styling */
+#start-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+#start-screen h1 {
+    margin: 0;
+}
+
+#start-screen p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Game Container */
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Canvas Styling */
+#gameCanvas {
+    background-color: #006400; /* Dark green background */
+    border: 2px solid white;
+}
+
+/* Score Display Styling */
+#score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
